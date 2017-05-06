@@ -179,10 +179,10 @@ hr
 
 .results h2
 {
-  color: #4d4d4d
+  color: #4d4d4d;
   font-size: 28px;
   margin-left: 20px;
-  margin-top: 15px;
+  margin-top: 30px;
   float: left;
   font-family: serif;
 
@@ -196,4 +196,11 @@ hr
   width: 40px;
   margin-right: 2px;
 
+}
+.results p
+{
+  font-family: serif;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-right: 80px;
 }
