@@ -54,7 +54,7 @@ body
   width: 7%;
   background-color: white;
   border: 2px solid white;
-  margin-left: 329px;
+  margin-left: 327px;
   display: inline-block;
   z-index: 10;
   outline: 9999px solid rgba(0,0,0,0.5);
@@ -92,7 +92,6 @@ body
   width: 25%;
   border: 2px solid #4082cd;
   z-index: 10;
-
   line-height: 10px;
   font-family:serif;
   display: inline-block;
@@ -141,6 +140,7 @@ hr
   width: 250px;
   margin-top: 50px;
   margin-left: 165px;
+  border-radius: 2px;
   text-align: center;
   font-size: 18px;
   font-weight: 400;
@@ -172,13 +172,20 @@ hr
   width: 80%;
   margin-left: 130px;
   margin-top: 50px;
+  display: inline-block;
+
 }
 
 
 .results h2
 {
+  color: #4d4d4d
+  font-size: 28px;
   margin-left: 20px;
   margin-top: 15px;
+  float: left;
+  font-family: serif;
+
 
 }
 
@@ -188,5 +195,5 @@ hr
   height: 40px;
   width: 40px;
   margin-right: 2px;
-  margin-top: -48px;
+
 }
