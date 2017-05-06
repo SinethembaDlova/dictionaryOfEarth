@@ -50,18 +50,21 @@ body
 
 .close
 {
-  height: 100%;
-  width: 6%;
+  height: 10%;
+  width: 7%;
   background-color: white;
+  border: white;
+  margin-left: 329px;
   display: inline-block;
-  display: none;
+  position: fixed;
+
 }
 
 .close img
 {
   height: 40%;
   width: 55%;
-  position: relative;
+
   padding: 0.5px;
   margin-top: 18px;
   margin-left: 18px;
@@ -89,6 +92,7 @@ body
   outline: 9999px solid rgba(0,0,0,0.5);
   line-height: 10px;
   font-family:serif;
+  display: inline-block;
   position: fixed;
 }
 
@@ -101,10 +105,18 @@ body
   color: white;
   font-size: 20px;
   font-family: serif;
+  list-style: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
 
 }
 
 hr
 {
   background-color: white;
+}
+
+#headingLine
+{
+  top: 10px;
 }
