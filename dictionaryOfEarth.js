@@ -8,32 +8,49 @@ var searchedName = document.querySelector(".results h2")
 
 
 var dictionary = [{ name: 'Earth',
-                    definition: 'the planet on which we live; the world.'
+                    definition: 'The planet on which we live; the world.'
 
                   },
 
                   { name: 'Space',
-                    definition: 'a continuous area or expanse which is free, available, or unoccupied.'
+                    definition: 'A continuous area or expanse which is free, available, or unoccupied.'
                   },
 
                   { name: 'Air',
-                    definition: 'the invisible gaseous substance surrounding the earth, a mixture mainly of oxygen and nitrogen.'
+                    definition: 'The invisible gaseous substance surrounding the earth, a mixture mainly of oxygen and nitrogen.'
                   },
 
                   {
                     name: 'Vicarious',
-                    definition: 'experienced in the imagination through the feelings or actions of another person.'
+                    definition: 'Experienced in the imagination through the feelings or actions of another person.'
                   },
                   {
                     name: 'Programming',
-                    definition: 'the process of writing computer programs.'
+                    definition: 'The process of writing computer programs.'
                   },
 
                   {
                     name: 'Mlab',
                     definition: 'Building Africa’s most vibrant tech innovation ecosystem through communities, code, lean innovation and start-up acceleration.'
                   },
+                  {
+                    name: 'Aerosol',
+                    definition: 'A substance enclosed under pressure and released as a fine spray by means of a propellant gas.'
+                  },
 
+                  {
+                    name: 'Atmosphere',
+                    definition: 'The envelope of gases surrounding the earth or another planet.'
+                  },
+                  {
+                    name: 'NASA',
+                    definition: 'NASA stands for National Aeronautics and Space Administration. NASA was started in 1958 as a part of the United States government. NASA is in charge of U.S. science and technology that has to do with airplanes or space.'
+                  },
+
+                  {
+                    name:'Mercury',
+                    definition: 'The chemical element of atomic number 80, a heavy silvery-white metal which is liquid at ordinary temperatures.'
+                  }
 ]
 
 function openMenu() {
